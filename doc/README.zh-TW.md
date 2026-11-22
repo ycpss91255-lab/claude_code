@@ -2,7 +2,7 @@
 
 # Claude Code Docker 環境
 
-[![CI](https://github.com/ycpss91255-docker/claude_code/actions/workflows/main.yaml/badge.svg)](https://github.com/ycpss91255-docker/claude_code/actions/workflows/main.yaml) [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square)](../LICENSE)
+[![CI](https://github.com/ycpss91255-lab/claude_code/actions/workflows/main.yaml/badge.svg)](https://github.com/ycpss91255-lab/claude_code/actions/workflows/main.yaml) [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square)](../LICENSE)
 
 Claude Code 的 Docker-in-Docker (DinD) 開發容器，預先安裝 Anthropic 的 Claude Code CLI。提供 CPU 與 NVIDIA GPU 兩種版本，以非 root 用戶執行並自動對應主機的 UID/GID。
 
@@ -222,7 +222,7 @@ rm .env.keys
 
 ```bash
 git subtree add --prefix=docker/claude_code \
-    https://github.com/ycpss91255-docker/claude_code.git main --squash
+    https://github.com/ycpss91255-lab/claude_code.git main --squash
 ```
 
 加入後的目錄結構範例：
@@ -266,7 +266,7 @@ cd docker/claude_code
 
 ```bash
 git subtree pull --prefix=docker/claude_code \
-    https://github.com/ycpss91255-docker/claude_code.git main --squash
+    https://github.com/ycpss91255-lab/claude_code.git main --squash
 ```
 
 > **注意事項**：
