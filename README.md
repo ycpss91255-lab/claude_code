@@ -1,8 +1,8 @@
 # Claude Code Docker Environment
 
-[![CI](https://github.com/ycpss91255-docker/claude_code/actions/workflows/main.yaml/badge.svg)](https://github.com/ycpss91255-docker/claude_code/actions/workflows/main.yaml) [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square)](./LICENSE)
+[![CI](https://github.com/ycpss91255-lab/claude_code/actions/workflows/main.yaml/badge.svg)](https://github.com/ycpss91255-lab/claude_code/actions/workflows/main.yaml) [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square)](./LICENSE)
 
-[![CI](https://github.com/ycpss91255-docker/claude_code/actions/workflows/main.yaml/badge.svg)](https://github.com/ycpss91255-docker/claude_code/actions/workflows/main.yaml)
+[![CI](https://github.com/ycpss91255-lab/claude_code/actions/workflows/main.yaml/badge.svg)](https://github.com/ycpss91255-lab/claude_code/actions/workflows/main.yaml)
 
 **[English](README.md)** | **[繁體中文](doc/README.zh-TW.md)** | **[简体中文](doc/README.zh-CN.md)** | **[日本語](doc/README.ja.md)**
 
@@ -224,7 +224,7 @@ This repo can be embedded into another project via `git subtree`, letting the pr
 
 ```bash
 git subtree add --prefix=docker/claude_code \
-    https://github.com/ycpss91255-docker/claude_code.git main --squash
+    https://github.com/ycpss91255-lab/claude_code.git main --squash
 ```
 
 Example directory structure after adding:
@@ -268,7 +268,7 @@ When the subtree sits at `my_project/docker/claude_code/`:
 
 ```bash
 git subtree pull --prefix=docker/claude_code \
-    https://github.com/ycpss91255-docker/claude_code.git main --squash
+    https://github.com/ycpss91255-lab/claude_code.git main --squash
 ```
 
 > **Notes**:

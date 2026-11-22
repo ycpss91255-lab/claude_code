@@ -2,7 +2,7 @@
 
 # Claude Code Docker 環境
 
-[![CI](https://github.com/ycpss91255-docker/claude_code/actions/workflows/main.yaml/badge.svg)](https://github.com/ycpss91255-docker/claude_code/actions/workflows/main.yaml) [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square)](../LICENSE)
+[![CI](https://github.com/ycpss91255-lab/claude_code/actions/workflows/main.yaml/badge.svg)](https://github.com/ycpss91255-lab/claude_code/actions/workflows/main.yaml) [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square)](../LICENSE)
 
 Claude Code 用の Docker-in-Docker (DinD) 開発コンテナ。Anthropic の Claude Code CLI がプリインストールされています。CPU と NVIDIA GPU の2つのバリアントを提供し、非 root ユーザーで実行され、ホストの UID/GID を自動的にマッチングします。
 
@@ -222,7 +222,7 @@ rm .env.keys
 
 ```bash
 git subtree add --prefix=docker/claude_code \
-    https://github.com/ycpss91255-docker/claude_code.git main --squash
+    https://github.com/ycpss91255-lab/claude_code.git main --squash
 ```
 
 追加後のディレクトリ構造の例：
@@ -266,7 +266,7 @@ subtree が `my_project/docker/claude_code/` にある場合：
 
 ```bash
 git subtree pull --prefix=docker/claude_code \
-    https://github.com/ycpss91255-docker/claude_code.git main --squash
+    https://github.com/ycpss91255-lab/claude_code.git main --squash
 ```
 
 > **注意事項**：
